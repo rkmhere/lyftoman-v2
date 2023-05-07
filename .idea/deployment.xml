@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="lyft.rkmapps.com" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="lyft.rkmapps.com">
+        <serverdata>
+          <mappings>
+            <mapping deploy="lyftoman" local="$PROJECT_DIR$" web="https://lyft.rkmapps.com/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

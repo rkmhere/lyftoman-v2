@@ -1,0 +1,381 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17-Sep-2022, 11:38:35 PM
+*/
+body, html {
+  direction: ltr;
+  text-align: left;
+}
+.discription-area .content-box {
+  text-align: left;
+}
+.course-details-section .course-content, .course-item, .course-videos-section .video_list, .discription-area .instructor-wrap, .discription-area .shop-review-area {
+  text-align: left;
+}
+form {
+  text-align: left;
+}
+.login-title {
+  text-align: left;
+}
+.user-dashbord .title {
+  text-align: left;
+}
+table.dataTable tbody td, table.dataTable tbody th {
+  text-align: left;
+}
+.breadcrumb-area {
+    background-color: #000000;
+}
+
+.breadcrumb-area .breadcrumb-txt {
+    padding: 150px 0 28px 0 !important;
+}
+.header-navbar {
+  border-bottom: none;
+}
+.breadcrumb-area-overlay {
+    background-color: #000 !important;
+}
+#mainMenu a:hover, .language a:hover {
+    color: #fff;
+}
+input[type="submit"], button[type="submit"] {
+  background-color: #0A3041;
+  border: 1px solid #BD922F;
+}
+.sticky-navbar {
+  background-color: #000;
+}
+.circle {
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border-radius: 20px;
+}
+.badge {
+    padding: 8px;
+}
+
+.action .btn {
+padding: 10px;
+border: none !important; 
+outline: none !important; 
+background: transparent !important;
+color: #000;
+font-weight: normal;
+text-transform: inherit;
+width: 70%;
+text-align: left;
+}
+
+.user-dashbord .btn-info,
+.user-dashbord .btn-info:not(:disabled):not(.disabled).active, 
+.user-dashbord .btn-info:not(:disabled):not(.disabled):active, 
+.user-dashbord .show > .btn-info.dropdown-toggle {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+  padding: 4px !important; 
+}
+.action .btn:hover {
+   color: #000  !important; 
+}
+
+@media only screen and (min-width: 1200px) {
+    /*User section  */
+ .container {
+  max-width: 1300px;
+}
+}
+ul.language-dropdown li,
+.main-menu li.dropdown ul.dropdown-lists li {
+      background: #222;
+}
+ul.language-dropdown li a,
+.main-menu li.dropdown ul.dropdown-lists li a{
+    color: #fff !important;
+	    padding: 6px 14px;
+    font-size: 15px !important;
+    font-weight: bold;
+}
+.dropdown  .dropdown-item:hover {
+    background: #BD922F !important;
+}
+.user-dashbord button[type="submit"],
+.file-upload-area .upload-file span {
+  background-color: #000;
+}
+
+.ar input[type=color],
+.ar input[type=date],
+.ar input[type=datetime-local],
+.ar input[type=email],
+.ar input[type=month],
+.ar input[type=number],
+.ar input[type=range],
+.ar input[type=search],
+.ar input[type=tel],
+.ar input[type=text],
+.ar input[type=password],
+.ar input[type=username],
+.ar input[type=time],
+.ar textarea{
+  padding-left: 23px !important;
+}
+.ar .breadcrumb-area .breadcrumb-txt {
+  text-align: left;
+}
+.ar .user-dashbord .main-info ul.list {
+  text-align: left;
+}
+.ar .user-dashbord .main-info ul.list {
+  float: left;
+}
+.ar .card-box .card-info p {
+  margin-left: 25%;
+}
+.ar .circle {
+  float: right;
+}
+.ar .main-menu li.dropdown ul.dropdown-lists li a {
+  text-align: left;
+}
+.ar div.language:not(.dashboard)::before {
+  left: 71px;
+}
+input[type="submit"], button[type="submit"] {
+    background-color: #000;
+    border: 1px solid #000;
+}
+.bio .main-info .list {
+    width: 50% !important; 
+}
+.ar .bio .main-info .list {
+    width: 45% !important; 
+}
+.ar .user-dashbord .main-info h5 {
+  text-align: left;
+}
+button[type="submit"].cls-btn, a.cls-btn {
+    padding: 5px 12px; 
+    font-size: 12px; 
+    text-transform: capitalize; 
+}
+ a.cls-btn {
+    background-color: #BD922F;
+    color: #ffffff;
+    font-weight: bold;
+ }
+   @media (min-width: 992px) {
+.left-sec {
+  max-width: 20%;
+}
+.right-sec {
+  max-width: 80%;
+}
+}
+
+.main-menu li a::before, .main-menu li a::after {display:none !important;}
+.main-menu li a:hover {color:#BD922F !important;} 
+ul.language-dropdown li a::before {display:none;}
+
+.main-menu li.dropdown ul.dropdown-lists li {    border-bottom: 0px solid rgba(255, 255, 255, 0.1);}
+.main-menu li.dropdown ul.dropdown-lists li a:hover {color:#BD922F !important;}
+div.dataTables_wrapper div.dataTables_length select {margin-bottom: 0px; margin-right: 10px;margin-left: 10px;}
+.main-table .dataTables_wrapper td a.btn {display:block;}
+.form-element {    margin-bottom:8px;}
+=======
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17-Sep-2022, 11:38:35 PM
+*/
+body, html {
+  direction: ltr;
+  text-align: left;
+}
+.discription-area .content-box {
+  text-align: left;
+}
+.course-details-section .course-content, .course-item, .course-videos-section .video_list, .discription-area .instructor-wrap, .discription-area .shop-review-area {
+  text-align: left;
+}
+form {
+  text-align: left;
+}
+.login-title {
+  text-align: left;
+}
+.user-dashbord .title {
+  text-align: left;
+}
+table.dataTable tbody td, table.dataTable tbody th {
+  text-align: left;
+}
+.breadcrumb-area {
+    background-color: #000000;
+}
+
+.breadcrumb-area .breadcrumb-txt {
+    padding: 150px 0 28px 0 !important;
+}
+.header-navbar {
+  border-bottom: none;
+}
+.breadcrumb-area-overlay {
+    background-color: #000 !important;
+}
+#mainMenu a:hover, .language a:hover {
+    color: #fff;
+}
+input[type="submit"], button[type="submit"] {
+  background-color: #0A3041;
+  border: 1px solid #BD922F;
+}
+.sticky-navbar {
+  background-color: #000;
+}
+.circle {
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border-radius: 20px;
+}
+.badge {
+    padding: 8px;
+}
+
+.action .btn {
+padding: 10px;
+border: none !important; 
+outline: none !important; 
+background: transparent !important;
+color: #000;
+font-weight: normal;
+text-transform: inherit;
+width: 70%;
+text-align: left;
+}
+
+.user-dashbord .btn-info,
+.user-dashbord .btn-info:not(:disabled):not(.disabled).active, 
+.user-dashbord .btn-info:not(:disabled):not(.disabled):active, 
+.user-dashbord .show > .btn-info.dropdown-toggle {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+  padding: 4px !important; 
+}
+.action .btn:hover {
+   color: #000  !important; 
+}
+
+@media only screen and (min-width: 1200px) {
+    /*User section  */
+ .container {
+  max-width: 1300px;
+}
+}
+ul.language-dropdown li,
+.main-menu li.dropdown ul.dropdown-lists li {
+      background: #222;
+}
+ul.language-dropdown li a,
+.main-menu li.dropdown ul.dropdown-lists li a{
+    color: #fff !important;
+	    padding: 6px 14px;
+    font-size: 15px !important;
+    font-weight: bold;
+}
+.dropdown  .dropdown-item:hover {
+    background: #BD922F !important;
+}
+.user-dashbord button[type="submit"],
+.file-upload-area .upload-file span {
+  background-color: #000;
+}
+
+.ar input[type=color],
+.ar input[type=date],
+.ar input[type=datetime-local],
+.ar input[type=email],
+.ar input[type=month],
+.ar input[type=number],
+.ar input[type=range],
+.ar input[type=search],
+.ar input[type=tel],
+.ar input[type=text],
+.ar input[type=password],
+.ar input[type=username],
+.ar input[type=time],
+.ar textarea{
+  padding-left: 23px !important;
+}
+.ar .breadcrumb-area .breadcrumb-txt {
+  text-align: left;
+}
+.ar .user-dashbord .main-info ul.list {
+  text-align: left;
+}
+.ar .user-dashbord .main-info ul.list {
+  float: left;
+}
+.ar .card-box .card-info p {
+  margin-left: 25%;
+}
+.ar .circle {
+  float: right;
+}
+.ar .main-menu li.dropdown ul.dropdown-lists li a {
+  text-align: left;
+}
+.ar div.language:not(.dashboard)::before {
+  left: 71px;
+}
+input[type="submit"], button[type="submit"] {
+    background-color: #000;
+    border: 1px solid #000;
+}
+.bio .main-info .list {
+    width: 50% !important; 
+}
+.ar .bio .main-info .list {
+    width: 45% !important; 
+}
+.ar .user-dashbord .main-info h5 {
+  text-align: left;
+}
+button[type="submit"].cls-btn, a.cls-btn {
+    padding: 5px 12px; 
+    font-size: 12px; 
+    text-transform: capitalize; 
+}
+ a.cls-btn {
+    background-color: #BD922F;
+    color: #ffffff;
+    font-weight: bold;
+ }
+   @media (min-width: 992px) {
+.left-sec {
+  max-width: 20%;
+}
+.right-sec {
+  max-width: 80%;
+}
+}
+
+.main-menu li a::before, .main-menu li a::after {display:none !important;}
+.main-menu li a:hover {color:#BD922F !important;} 
+ul.language-dropdown li a::before {display:none;}
+
+.main-menu li.dropdown ul.dropdown-lists li {    border-bottom: 0px solid rgba(255, 255, 255, 0.1);}
+
+.main-menu li.dropdown ul.dropdown-lists li a:hover {color:#BD922F !important;}
+ul.language-dropdown li a:hover {    background: #BD922F !important;}
+

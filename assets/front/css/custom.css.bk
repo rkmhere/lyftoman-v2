@@ -1,0 +1,1583 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 16-Sep-2022, 11:38:35 PM
+*/
+body, html {
+  direction: ltr;
+  text-align: left;
+}
+.discription-area .content-box {
+  text-align: left;
+}
+.course-details-section .course-content, .course-item, .course-videos-section .video_list, .discription-area .instructor-wrap, .discription-area .shop-review-area {
+  text-align: left;
+}
+form {
+  text-align: left;
+}
+.login-title {
+  text-align: left;
+}
+.user-dashbord .title {
+  text-align: left;
+}
+/*----Home SLider----------*/
+.hero_slide_v1 .single_slider{
+	padding: 350px 0 0px !important;
+}
+
+.regstep2 .back2,
+.regstep2 .back3 {
+    margin-right: 10%;
+}
+
+.class_calender tbody tr td {
+    min-width: 140px;
+}
+.pagebuilder-content table, .pagebuilder-content tbody, .pagebuilder-content td, .pagebuilder-content tr {
+    /* border: 1px solid #ececec; */
+}
+.table-bordered td, .table-bordered th {
+    /*border: 1px solid #59595980 !important;*/
+}
+.table td, .table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.text-center {
+    text-align: center!important;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+#tabs .table-bordered thead th{
+	text-align: center;
+	font-size: 15px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+br{
+    content: '';
+    display: block;
+    margin-bottom: 5px;	
+}
+.btn-primary,
+.btn-warning {
+    color: #ffffff;
+    background-color: #BD922F;
+    border-color: #BD922F;
+}
+.regstep2 .mg {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.help-inline-error {
+    color: #ff0000;
+}
+#sf2 strong {
+    font-size: 20px;
+}
+#sf3 fieldset {
+    width: 50%;
+}
+.regstep2 .upload-img img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+.regstep2 .file-upload-area .upload-file input {
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    opacity: 0;
+    cursor: pointer;
+}
+.regstep2 .file-upload-area .upload-file span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 40px;
+    background: #BD922F;
+    z-index: -1;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 600;
+}
+.regstep2 .file-upload-area .upload-file {
+    position: relative;
+    cursor: pointer;
+}
+.class_calender .ui-tabs .ui-tabs-panel,
+.class_calender #tabs,
+.class_calender .content .row .col-lg-12 .card .card-body,
+.class_calender .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    padding-left: 0 !important;
+}
+#results-bmi {
+    margin-top: 6% !important;
+}
+.pricing_v1 .pricing_box {
+    margin-left: 0 !important;
+    margin-right: 30px !important;
+}
+.subtext {
+    padding-left:0 !important;
+}
+.hero_slide_v1 .single_slider {
+    min-height: 952px;
+}
+
+.par input.check {
+    float:left;
+}
+.breadcrumb-area-overlay {
+    background-color: #000 !important;
+}
+.courses-grid-style.categories .course-item .course-content {
+    padding: 50px;
+    background: #0e7dad;
+    box-shadow: 0 8px 16px 0 rgba(146, 184, 255, 0.2);
+    text-align: center;
+}
+.courses-grid-style.categories .course-item .course-content h3 {
+    margin-bottom: 0;
+}
+.course-item .course-content .course-admin-price {
+    border-bottom: none;
+}
+.input-btn button,
+.card-header .back,
+#enrollBtn, #enrollClassBtn,
+#enrollBtn__free {
+    background-color: #000000 !important;
+    border-color:#000000 !important;
+    color: #ffffff !important;
+}
+#enrollBtn:hover, .input-btn button:hover,
+.card-header .back:hover,
+#enrollBtn__free:hover,
+.btn-primary:hover,
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+    border-color: #ffffff !important;
+    background-color: #000000 !important;
+    color: #ffffff !important;
+
+}
+.card-header .back {
+    font-size: 12px;
+    padding: 14px;
+}
+.about-us {
+    min-height:600px;
+}
+.about-us h2 {
+    font-size: 27px;
+    color: #29282f;
+    font-weight: 700;
+    font-family: Tajawal;
+}
+
+.course-details-section .discription-area.class-cal .discription-tabs .nav-tabs .nav-link {
+    padding: 7px 8px;
+    border-radius: 44px;
+    text-align: center;
+    font-weight: bold;
+}
+.course-details-section .discription-area.class-cal .discription-tabs .nav-link.date {
+    margin-top: 10px;
+}
+/*.course-details-section .discription-area.class-cal .discription-tabs .nav-link.date.actived {
+    background: #ff3278;
+    color: #fff;
+}*/
+.course-details-section .discription-area.class-cal .discription-tabs .nav-tabs {
+    margin-bottom: 27px;
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 32px;
+}
+.home-sec1,
+.home-sec2 {
+    width: 100% !important;
+}
+.member_detail .project-infos strong {
+    text-transform: capitalize;
+    color: #283659;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.member_detail .project-infos {
+    font-size: 16px;
+}
+.member_detail .thumb-preview img {
+    height: auto;
+    width: 50%;
+    display: block;
+}
+.trainers .finlance_img h3,
+.trainers .finlance_img h6 {
+    color: #ffffff;
+}
+.tiktok {
+    background-image: url(../img/tiktok.png);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 5px;
+}
+.tiktok1 {
+    position: absolute;
+    top: 1px;
+}
+.pt-120 {
+    padding-top: 70px;
+}
+.pb-120 {
+    padding-bottom: 70px !important;
+}
+/*
+#il6ctx {
+  padding: 90px 0 60px 0;
+}
+*/
+.packages .pricing_box .finlance_btn {
+    background-color: rgb(189, 146, 47) !important;
+    color: rgb(255, 255, 255) !important;
+}
+.logistics_pricing .pricing_slide .filter-nav .filter-btn li {
+    color: #fff;
+}
+.class_calender .section_title h2 span,
+.trainers .section_title h2 span,
+.packages .section_title h2 span {
+    color: rgb(189, 146, 47) !important;
+}
+.header_v1 .top_header {
+    border-bottom: none;
+}
+
+/*   membership  */
+.packages {
+    background: rgb(34, 34, 34) !important;
+	padding: 70px 0px;
+}
+
+.packages .section_title h2 {
+    font-family: Tajawal !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 50px;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    text-align: center;
+}
+.packages .subtext p {
+    line-height: 30px;
+    margin-top: -3px;
+    text-align: center;
+    font-family: Tajawal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #d7d7d7;
+    margin-bottom: 30px;
+}
+.packages .pricing_box .pricing_title h3 {
+    font-family: Tajawal !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+    min-height: 2.6em;
+}
+.packages .pricing_box .pricing_body p {
+    font-family: Tajawal !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px;
+    color: #2e2f2f;
+}
+.packages .pricing_box .pricing_price h3 {
+    white-space: nowrap;
+    font-family: Tajawal !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 32px;
+    color: #2e2f2f;
+}
+
+.packages .pricing_box .pricing_price {
+    background: rgb(255, 255, 255) !important;
+}
+.packages .pricing_button .finlance_btn {
+    background-color: rgb(189, 146, 47);
+    color: rgb(255, 255, 255);
+    min-width: 270px;
+    height: 40px;
+    line-height: 36px;
+    font-size: 16px;
+	border: 2px solid #000000;
+}
+.packages .pricing_button .finlance_btn:hover {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 2px solid #000000 !important;
+    transition: 0.5s ease-in-out;
+}
+
+/*   membership  mobile */
+@media screen and (max-width: 400px) {
+    .packages .pricing_button .finlance_btn {
+        background-color: rgb(189, 146, 47);
+        color: rgb(255, 255, 255);
+        min-width: 180px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+/*calender */
+
+.class_calender {
+    background: rgb(34, 34, 34) !important;
+	padding: 30px 0px 70px 0px;
+}
+.class_calender .subtext p {
+    text-align: center;
+    font-family: Tajawal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #d7d7d7;
+    /*margin-bottom:60px;*/
+}
+.class_calender .content {
+    background: rgb(34, 34, 34) !important;
+}
+
+.class_calender .content .row {
+    background: rgb(34, 34, 34) !important;
+}
+.class_calender .content .row .col-lg-12 {
+    background: rgb(34, 34, 34) !important;
+}
+.class_calender .section_title h2 {
+    font-family: Tajawal !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 50px;
+    color: #ffffff!important;
+    text-transform: uppercase;
+    text-align: center;
+}
+.class_calender .content .row .col-lg-12 .card {
+    background: rgb(34, 34, 34) !important;
+    border: none !important;
+}
+
+.class_calender .content .row .col-lg-12 .card .card-body {
+    background: rgb(34, 34, 34) !important;
+	text-align: center;
+}
+.class_calender .content .row .col-lg-12 .card .card-body #tab {
+    background: rgb(34, 34, 34) !important;
+    color: white !important;
+}
+.class_calender .ui-tabs .ui-corner-all .ui-widget .ui-widget-content ul li {
+    background: rgb(34, 34, 34) !important;
+    color: white !important;
+    border: rgb(34, 34, 34);
+}
+
+.class_calender .ui-state-default {
+    border: none;
+	background: #000000 !important;
+    padding-top: 5px !important;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Tajawal';
+}
+.class_calender #tabs {
+    border: 1px solid rgb(34, 34, 34) !important;
+    background: #000000 !important;
+    color: white;
+}
+.class_calender #tabs ul {
+    padding: 5px;
+    border-width: 0px;
+    /*border-bottom: 2px solid white !important;*/
+    background: #000000 !important;
+    color: white;
+}
+.class_calender #tabs ul .ui-state-active {
+    padding: 5px;
+    border-width: 0px 0 1px 0;
+    /*border-bottom: 2px solid rgb(34, 34, 34) !important;*/
+    text-decoration: underline !important;
+	transition: 0.2s ease-in-out;
+}
+.ui-state-default a:link {
+    color: white !important;
+    padding-bottom: 5px;
+}
+.ui-state-active a,
+.ui-state-active a:link {
+    /*color: rgb(189, 146, 47) !important;*/
+	color: #ffffff;
+}
+/*
+.ui-state-active a,
+.ui-state-active {
+  text-decoration: underline !important;
+}
+*/
+.ui-tabs-anchor {
+    color: white !important;
+}
+.class_calender #tabs table {
+    color: white !important;
+    border: white !important;
+	font-family: 'Tajawal';
+    font-size: medium;
+}
+.class_calender #tabs table thead {
+    color: white !important;
+    border: white !important;
+    background: #000000 !important;
+    border: 1px solid #808080;
+    background-color: #000000;
+}
+.table .tr .td {
+    color: white !important;
+    border: 1px solid #808080;
+}
+.ui-tabs-panel .ui-corner-bottom .ui-widget-content .a {
+    color: white !important;
+    border: 1px solid #808080;
+    text-decoration: none;
+}
+.ui-widget-content a {
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+.ui-tabs-panel .ui-corner-bottom .ui-widget-content {
+    overflow-x: auto !important;
+}
+
+/* team section */
+
+.trainers {
+    background: #ffffff !important;
+	padding: 0px 0px 70px 0px;
+}
+.trainers .section_title h2 {
+    margin-top: 50px;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 55px;
+    color: #000000 !important;
+    text-transform: uppercase;
+    text-align: center;
+}
+.trainers .subtext p {
+    text-align: center;
+    font-size: 20px;
+    color: #7a7a7a;
+    margin-bottom: 30px;
+}
+.grid_inner_item .finlance_img h3,
+h6 {
+    font-family: Tajawal;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    color: #000000;
+    padding-bottom: 5px;
+    padding-top: 10px;
+	text-transform: uppercase;
+}
+.grid_inner_item .finlance_img h4 {
+    text-align: left;
+    font-family: Tajawal;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #7a7a7a;
+	text-transform: uppercase;
+}
+.finlance_btn {
+    background: rgb(34, 34, 34) !important;
+}
+.packages .pricing_button .finlance_btn {
+    background-color: #000000 !important;
+    color: rgb(255, 255, 255) !important;
+}
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+    .tiktok1 {
+        top: 20px;
+    }
+}
+
+/* Menu As */
+@media only screen and (min-width: 1401px) and (max-width: 1796px) {
+    .main-menu ul li a {
+        padding: 20px 10px !important;
+        font-size: 18px !important;
+    }
+}
+
+/* card height same service by category for same card height*/
+/*.courses-grid-style .course-item .course-img
+{
+         min-height: 620px;
+}*/
+#results-bmi {
+    background-color: #000;
+    padding: 16px;
+}
+#results-bmi h4 {
+    color: #ffffff;
+    float: left;
+    margin-right: 10%;
+    font-size: 22px;
+}
+#results-bmi h6 {
+    padding-top: 5px;
+    font-size: 19px;
+    font-weight: normal;
+    color: #fff;
+}
+
+/*BMI SECTION */
+
+.bmi {
+    background: #ffffff !important;
+    padding: 70px 0px;
+}
+.bmi .subtext p {
+    line-height: 30px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Tajawal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(17, 17, 17, 1);
+    margin-bottom: 30px;
+}
+.bmi .table tbody {
+    border: 1px solid white !important;
+}
+.bmi table,
+.bmi tbody .bmi td,
+.bmi tr {
+    border: none;
+}
+.bmi table thead {
+    border-bottom: 1px solid #d1cfcf !important;
+}
+
+#bmi-section .col-sm-6 {
+    margin: 15px;
+}
+.bmi .section_title h2 {
+    font-family: Tajawal !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 40px;
+    color: #000000 !important;
+    text-transform: uppercase;
+    text-align: left;
+}
+.section_title {
+    margin-bottom: 0px !important;
+}
+.section_title p {
+    margin-bottom: 60px !important;
+}
+
+.bmi .form select {
+    background: white;
+    border: 1px solid #d1cfcf;
+    font-family: Tajawal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(102, 102, 102, 1);
+}
+
+.bmi .form select option {
+    background: white;
+    border: 1px solid #d1cfcf;
+    font-family: Tajawal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(102, 102, 102, 1);
+}
+#form .input-box {
+    margin-bottom: 35px;
+    border: 1px solid #d1cfcf;
+    font-family: Tajawal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(102, 102, 102, 1);
+}
+.bmi .table {
+    color: black !important;
+}
+.bmi .info {
+    border: none;
+    font-weight: bold;
+
+    color: rgba(17, 17, 17, 1);
+}
+/*
+.pagebuilder-content tr  th{
+    border-bottom: 1px solid #d1cfcf;
+}
+*/
+#ia1mty .table-bordered th {
+    border: none;
+}
+
+.class_calender tbody tr td {
+    min-width: 140px;
+}
+
+.class_calender .table td{
+	border-top: none !important;
+}
+.bmi .table {
+    color: black !important;
+}
+.bmi .info {
+    border: none;
+}
+/*
+.pagebuilder-content tr  th{
+    border-bottom: 1px solid #d1cfcf;
+}
+*/
+.bmi .table-bordered th {
+    border: none;
+	font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+
+.bmi table {
+    border-collapse: collapse;
+    border: none !important;
+}
+.bmi table tbody td tr {
+    border: none !important;
+}
+
+.bmi table td {
+    border: 1px solid #d1cfcf;
+}
+
+.bmi table tr:first-child tr {
+    border-top: none;
+}
+
+.bmi table tr:last-child tr {
+    border-bottom: none;
+}
+
+.bmi table tr:first-child td {
+    border-top: none;
+}
+
+.bmi table tr:last-child td {
+    border-bottom: none;
+}
+
+.bmi table tr td:first-child {
+    border-left: none;
+}
+
+.bmi table tr td:last-child {
+    border-right: none;
+}
+
+.bmi #submit {
+    /*background-color: rgb(189, 146, 47);*/
+	background-color: #000000 !important;
+    color: rgb(255, 255, 255) !important;
+    padding: 10px 40%;
+	width: 100%;
+}
+.bmi .input-box ::placeholder {
+    color: rgba(102, 102, 102, 1);
+}
+
+.bmi_result_header {
+    color: black;
+    font-weight: bold;
+
+    color: rgba(17, 17, 17, 1);
+}
+
+
+@media only screen and (max-width: 600px) {
+    #submit {
+        background-color: rgb(189, 146, 47) !important;
+        color: rgb(255, 255, 255) !important;
+        padding: 5px 40%;
+    }
+}
+@media screen (min-width: 320px) and (max-width: 600px) {
+    .column_2 {
+        padding: 0px!important;
+        margin-top: 50px;
+    }
+    .column_1 form {
+        margin-top: 0px;
+    }
+}
+
+
+.column_1 form {
+    margin-top: 50px;
+}
+.gender_input {
+    border: none !important;
+}
+
+/*  WHO WE ARE */
+.who_we_are {
+  background-image: url(../img/home/2.jpg) !important;
+  max-width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.earlyboffer {
+  background-image: url(../img/home/3.jpg) !important;
+}
+
+.who_we_are .card {
+  width: 40rem;
+  background-color: rgba(255, 255, 255, 1);
+  height: 24rem;
+  padding: 60px;
+  border-radius: 2%;
+  position: absolute;
+  top: 24.5%;
+  right: 0px;
+  opacity: 0.9;
+}
+.who_we_are .card.eboffer {
+    left: 0%;
+    top: 18%;
+}
+
+.who_we_are .card.eboffer .ftoff a,
+.who_we_are .card.eboffer .ftoff p {
+    float:left;
+}
+.who_we_are .card.eboffer .ftoff p {
+    margin-top: 21px;
+    margin-left: 12px;
+}
+.who_we_are .card.eboffer .offerpnts li {
+    font-size: 22px;
+    line-height: 36px;
+}
+.who_we_are .card.eboffer .offerpnts li.li250 {
+    font-weight: 800;
+    font-size: 16px;
+}
+.who_we_are .card .card-body h5 {
+  white-space: nowrap;
+  text-align: left;
+  font-family: Tajawal;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgba(17, 17, 17, 1);
+}
+.who_we_are .card .card-body p {
+  text-align: left;
+  font-family: Tajawal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(17, 17, 17, 1);
+}
+.who_we_are .card .card-body .btn {
+  background-color: rgb(189, 146, 47) !important;
+  color: rgb(255, 255, 255) !important;
+  margin-top: 15px;
+  border-radius: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .who_we_are {
+    height: 600px;
+  }
+
+  .who_we_are .card {
+    width: 18rem;
+
+    height: 18rem;
+    padding: 3px;
+    border-radius: 0% 0% 0% 0%;
+
+    top: 45%;
+    right: 0px;
+    opacity: 0.9;
+  }
+  .who_we_are .card .card-body h5 {
+    font-size: 20px;
+  }
+  .who_we_are .card .card-body p {
+    font-size: 12px;
+  }
+
+  .who_we_are .card .card-body .btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .column_2 {
+    margin-top: -110px;
+}
+.hero_slide_v1 .single_slider .banner_content h1 {
+    font-size: 98px !important;
+}
+.hero_slide_v1 .single_slider .banner_content h2 {
+    font-size: 62px !important;
+}
+.banner_content .finlance_btn {
+    min-width: 275px !important;
+}
+.column_2 {
+    padding: 0px 100px 0px 100px;
+}
+}
+
+/** Membership page styles **/
+.packages.membership .pricing_box .pricing_title h3 {
+  font-size: 22px;
+}
+.packages.membership .pricing_box .pricing_price h3 {
+    font-size: 18px;
+}
+.packages.membership .pricing_box .pricing_body p,
+.packages.membership .pricing_box .pricing_body p span {
+    font-size: 14px !important
+}
+@media only screen and (min-width: 1200px) {
+    .membership .container {
+        max-width: 1326px;
+}
+.packages.packhome .pricing_box {
+    min-height: 500px;
+}
+.packages.packhome .finlance_btn {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+}
+}
+
+/** Membership page styles **/
+
+.regstep2 {
+  padding-bottom: 80px;
+}
+
+.course-details-section .discription-area .discription-tabs .nav-tabs .nav-link.selcted {
+  background: #BD922F !important;
+}
+.course-details-section .discription-area .discription-tabs .nav-tabs .nav-link.active {
+  background: #fff;
+  color: #333;
+}
+.course-details-section .discription-area .discription-tabs .nav-tabs .nav-link.day {
+    cursor: default;
+}
+.course-details-section .discription-area .discription-tabs .nav-tabs .nav-link.date {
+    cursor: pointer;
+}
+/*.sessiondetail .container {
+  max-width: 1450px;
+}*/
+.sessiondetail.course-details-section .courses-img-box {
+  width: 90%;
+}
+.sessiondetail .sessionItem {
+    width:25px;
+    height:25px;
+}
+.course-details-section .discription-area.class-cal .discription-tabs .nav-tabs .nav-link {
+    padding:4px;
+    border: none;
+}
+.nav-tabs .nav-item {
+  padding: 4px;
+}
+
+
+.previous,
+.next{
+  background-color: #000000;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+a:not([href]):not([tabindex]).previous,
+a:not([href]):not([tabindex]).next {
+    color: #ffffff;
+}
+.previous:hover,
+.next:hover{
+ 
+  cursor: pointer;
+}
+.session-left {
+background-color: #222;
+border-radius: 32px;
+padding: 10px;
+color: #fff;
+min-width: 50px;
+float: right;
+text-align: center;
+}
+.schedules,
+.previous,
+ .sessions
+{
+     float: left; 
+}
+.next
+{
+     float: right; 
+}
+.sessions {
+    width:100%;
+}
+
+
+/* Hide the browser's default checkbox */
+.sessionItem {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  top: 0;
+z-index: 1;
+}
+
+/* Create a custom checkbox */
+.sessions  .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 15px;
+}
+
+
+
+/* When the checkbox is checked, add a blue background */
+.sessions  input:checked ~ .checkmark {
+  background-color: #E0115F;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.sessions .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.sessions  input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.sessions .checkmark:after {
+  left: 10px;
+  top: 6px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.schedules {
+    display:none;
+    min-width: 35%;
+    
+}
+.item0 {
+    display:block;
+    
+}
+.nav-tabs .nav-item {
+  padding: 4px;
+  float: left;
+}
+.packets {
+    position:relative;
+    margin-bottom: 14px;
+}
+.range {
+    margin-left: 34px;
+}
+.nav-link.day {
+    cursor:pointer !important;
+}
+
+/*------------Team CSS-------------*/
+h1, h2 {
+    font-family: 'Tajawal', sans-serif !important;
+	font-weight: 800 !important;
+	text-transform: uppercase !important;
+}
+
+.trainers h2{
+	font-family: 'Tajawal', sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+body, p{
+    font-family: 'Tajawal', sans-serif !important;
+	font-weight: 400 !important;
+	font-size: 18px;
+	color: #2e2f2f;
+}
+
+.trainers .finlance_img h3{
+    position: absolute;
+    transform: rotate(90deg);
+    top: 0;
+    left: 96%;
+    z-index: 20;
+    width: 100%;
+    transform-origin: 0 top;
+    display: block;
+	vertical-align: middle;
+}
+.trainers .finlance_img h4{
+    position: absolute;
+    transform: rotate(90deg);
+    top: 0;
+    left: 99%;
+    z-index: 20;
+    width: 100%;
+    transform-origin: 0 top;
+    display: inline;
+    vertical-align: middle;
+    font-weight: 400;
+}
+.trainers .finlance_img img {width: 85% !important}
+.trainers .slick-initialized .slick-slide{border: 0px !important;}
+.class_calender #tabs ul .ui-state-active a::after{
+	content: "";
+    width: calc(100% - 40px);
+    height: 40%;
+    position: absolute;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    left: -4px;
+    bottom: 8px;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {padding: 0.3em 1em !important;}
+.class_calender .ui-tabs-anchor a:hover:after{
+	content: "";
+    width: calc(100% - 40px);
+    height: 40%;
+    position: absolute;
+    border: none !important;
+    left: -4px;
+    bottom: 8px;
+	-webkit-transition: height .3s,width .3s .2s,border-color .1s;
+    -o-transition: height .3s,width .3s .2s,border-color .1s;
+    transition: height .3s,width .3s .2s,border-color .1s;
+}
+.ui-tabs .ui-tabs-nav li{float: none !important; display: inline-block; }
+.class_calender .ui-widget-content {border: none !important;background: #000000 !important;color: #333333;}
+.ui-tabs .ui-tabs-panel{padding: 0.5em 1.5em !important;}
+.class_calender #tabs ul{padding: 0px 0px 0px 30px !important; text-align: center;}
+.bmi .table-bordered th:first-child {border-right: 1px solid #d1cfcf;}
+#tabs .table-bordered th {border-bottom: 1px solid rgb(211 211 211 / 40%) !important;}
+#tabs .table th{border-top: 1px solid rgb(211 211 211 / 40%) !important;}
+.column_2 .table td {text-align: left;padding: 15px 35px;}
+.column_2 .table th {text-align: left; padding: 15px 35px;}
+.bmi table tr td:last-child{padding-left: 32px !important;}
+.pricing_box .pricing_body ul li{text-align: left; text-transform: capitalize; font-weight: 500;margin-left: 12%;}
+.pricing_box .pricing_body ul li:before{font-family: 'Font Awesome 5 Free';content: "✓";margin-right: 10px;}
+
+.login-area .login-content .input-btn button {
+  background: #2e2f2f;
+  border-color: #2e2f2f;
+}
+.register .mr-3, .register .mx-3 {
+  margin-right: 0 !important;
+}
+.dropdown  .dropdown-item:hover {
+    background: #BD922F !important;
+}
+.main-menu ul li > ul.sub-menu li > a:hover {
+    color: #BD922F;
+}
+#masonry-package .filter-btn {
+    color: #ffffff;
+}
+#masonry-package .pricing_box .finlance_btn {
+  background-color: #000000 !important;
+  color: rgb(255, 255, 255) !important;
+}
+#masonry-package .pricing_box .pricing_body {
+  min-height: 208px;
+}
+
+#masonry-package .text-capitalize {
+  text-transform: uppercase !important;
+}
+#masonry-package .pricing_box  .finlance_btn {
+   min-width: 270px;
+   height: 46px;
+    line-height: 47px;
+}
+#masonry-package .pricing_box .finlance_btn:hover {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 2px solid #000000 !important;
+    transition: 0.5s ease-in-out;
+}
+input[type="submit"], button[type="submit"] {
+  border: 1px solid #fff;
+}
+.course-img img {
+  min-height: 289px !important;
+  border:none !important;
+  outline:none !important;
+}
+.courses-grid-style .card-header {
+    padding-left:0;
+}
+.ar .packages .pricing_box .pricing_title h3 {
+
+  min-height: 4em;
+}
+
+/* RTL styles overwritting starts from here */
+
+.ar .header_v1 .top_header .top_right {
+    float: right;
+}
+.ar .breadcrumb-area .breadcrumb-txt {
+    text-align: left;
+}
+ .ar .footer_bottom .copyright_text div {
+  color: #fff;
+}
+.ar .footer_v1 .footer_bottom .social_box {
+    float: right;
+}
+.ar .footer_v1 .widget_box {
+    text-align: left;
+}
+.ar button[type=submit], input[type=submit] {
+    float: left;
+}
+.ar .trainers .team_slide,
+.ar .finlance_banner.banner_v1 {
+    direction: rtl;
+}
+.ar .trainers .finlance_img img {
+  float: left;
+}
+.ar .pricing_v1 .pricing_box .pricing_body ul li {
+  line-height: 26px;
+}
+.ar [dir="rtl"] .slick-slide {
+  float: left;
+}
+.ar .breadcrumb-area .breadcrumb-txt {
+  text-align: left;
+}
+  @media only screen and (min-width: 1200px) {
+.ar .packages.packhome .pricing_box {
+  min-height:640px;
+}
+.en .pricing_box .pricing_body ul li {
+  margin-left: 15% !important;
+}
+.en .packages.packhome .pricing_box {
+  min-height: 530px;
+}
+}
+/* RTL styles overwritting ends from here */
+ .class_calender #tabs-0,
+.class_calender #tabs-1 ,
+.class_calender #tabs-2 ,
+.class_calender #tabs-3,
+.class_calender #tabs-16,
+.class_calender #tabs-17 {
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 2px !important;
+}
+.class_calender .table {
+    margin-bottom: 0;
+}
+.class_calender .text-center{
+    font-size: 14px;
+}
+.pricing_v1 .pricing_box .pricing_body {
+  padding: 18px 26px;
+}
+.team_v1 .grid_item .finlance_img {
+  height: 280px;
+}
+.trainers .grid_item .finlance_img {
+  height: 255px !important;
+}
+.mkdf-team-holder .mkdf-team-social-floating {
+  display: block;
+  position: absolute;
+  height: 40px;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  overflow: hidden;
+  left: calc(100% - 80px);
+  -webkit-transform-origin: 0 bottom;
+  -ms-transform-origin: 0 bottom;
+  transform-origin: 0 bottom;
+  bottom: 18px;
+}
+.mkdf-team-holder .mkdf-team-social-floating .mkdf-team-social-opener > span {
+  display: block;
+  text-align: center;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.mkdf-team-holder .mkdf-team-social-floating .mkdf-team-social-opener {
+  position: absolute;
+  display: block;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.mkdf-team-holder .mkdf-team-social-floating .mkdf-team-social-holder {
+  position: absolute;
+  display: none;
+  width: auto;
+  height: 40px;
+  line-height: 37px;
+  background-color: #000;
+  left: 40px;
+}
+.mkdf-team-icon {
+   padding: 12px; 
+}
+.mkdf-team-icon i {
+ color: #fff;   
+}
+.product-quantity input {
+  min-width: 56px;
+  padding-left: 0 !important;
+  padding-right: 0;
+}
+.checkout-area .bottom {
+  padding-top: 46px;
+  margin-top: 62px;
+}
+.checkout-area {
+  padding-top: 92px;
+}
+.ar input[type=color],
+.ar input[type=date],
+.ar input[type=datetime-local],
+.ar input[type=email],
+.ar input[type=month],
+.ar input[type=number],
+.ar input[type=range],
+.ar input[type=search],
+.ar input[type=tel],
+.ar input[type=text],
+.ar input[type=password],
+.ar input[type=username],
+.ar input[type=time], 
+.ar textarea {
+  padding-left: 23px !important;
+}
+.ar .mkdf-team-holder .mkdf-team-social-floating .mkdf-team-social-opener {
+    left: 5px;
+}
+.ar .pricing_v1 .pricing_box .pricing_body {
+  padding: 18px 6px;
+}
+.ar .pricing_box .pricing_body ul li {
+    margin-left: 4%;
+}
+.breadcrumb-txt span p {
+    color: #BD922F;
+}
+.pricing_v1 .pricing_box .pricing_body ul li {
+  line-height: 26px;
+  font-size: 14px;
+}
+/**Product section starts here **/
+button.filter-button {
+  background-color: #000000;
+}
+.product-area .shop-tag .tag-item ul li.active-search a,
+.actions .main-btn {
+  background: #000000;
+}
+.actions .cart-btn {
+    text-transform: uppercase;
+}
+
+a.proceed-checkout-btn,
+a.proceed-checkout-btn:hover,
+.cart-middle .update-cart button,
+cart-middle .update-cart button:hover {
+  color: #ffffff !important;
+  border: 1px solid #000000 !important;
+  background: #000000 !important;
+    text-transform: uppercase;
+}
+.cart-area .cart-table tbody .available-info .icon {
+  background: #000;
+}
+.base-bg {
+  background-color: #000 !important;
+}
+/**Product section ends here **/
+
+input[type="submit"], button[type="submit"] {
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.videocontainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+border: none;
+}
+a.proceed-checkout-btn {
+    line-height: 22px;
+}
+a.proceed-checkout-btn span {
+    font-size: 14px;
+}
+.product-details-content .actions .main-btn {
+    padding: 8px 24px;
+}
+.cart-middle .update-cart button {
+  border-radius: 0;
+}
+.sharegiftcard input {
+    border: 1px solid #ddd;
+}
+.product-area .shop-item .shop-thumb::before {
+    background: none;
+}
+.shop-item .actions {
+   margin-top: 12px !important;
+    margin: 0 auto;
+    width: 80%;
+}
+.product-area .shop-item .shop-content a {
+    margin-bottom: 0;
+}
+.shop-item .actions .main-btn {
+    padding: 7px 18px;
+}
+.price-range-box form input {
+    width: 160px;
+}
+
+
+ .cardview .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2.5rem;
+        padding: 0;
+        list-style-type: none;
+    }
+
+  .cardview .card {
+        position: relative;
+        display: block;
+        height: 100%;
+        border:none !important;
+        overflow: hidden;
+        text-decoration: none;
+    }
+
+.cardview .card__image {
+        width: 100%;
+        height: auto;
+    }
+
+  .cardview  .card__overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        background-color: #000000;
+        ;
+        transform: translateY(100%);
+        transition: .2s ease-in-out;
+    }
+
+    
+      .cardview .card:hover .card__overlay {
+        transform: translateY(0);
+    }
+
+     .cardview .card__header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 2em;
+        padding: 10px;
+        border-radius: calc(var(--curve) * 1px) 0 0 0;
+        transform: translateY(-100%);
+        transition: .2s ease-in-out;
+    }
+
+      .cardview .card__arc {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        bottom: 100%;
+        right: 0;
+        z-index: 1;
+    }
+
+      .cardview .card__arc path {
+        fill: var(--surface-color);
+        d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
+    }
+
+      .cardview .card:hover .card__header {
+        transform: translateY(0);
+    }
+
+      .cardview .card__thumb {
+        flex-shrink: 0;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+      .cardview .card__title {
+        font-size: 1em;
+        margin: 0 0 .3em;
+        color: #6A515E;
+    }
+
+      .cardview .card__tagline {
+        display: block;
+        margin: 1em 0;
+        font-family: "MockFlowFont";
+        font-size: .8em;
+        color: #D7BDCA;
+    }
+
+      .cardview .card__status {
+        font-size: .8em;
+        color: #D7BDCA;
+    }
+
+     .cardview .card__description {
+        padding: 0 2em 2em;
+        margin: 0;
+        color: #fff;
+        font-weight: bolder !important;
+        font-family: "MockFlowFont";
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+      .cardview .card:hover img,
+      .cardview .card:focus img {
+        padding: 20px;
+        transform: translateX(40px);
+        transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+    }
+      .cardview .course-content a {
+        transition: width 4s, height 4s, background-color 4s, transform 4s;
+    }
+     .cardview .card__description {
+
+        transition: width 2s, height 2s, background-color 2s, transform 2s;
+    }
+
+      .cardview .card__description:hover {
+        background-color: #BD922F;
+        width: 100%;
+        height: 60px;
+    }
+     .cardview .course-content a:hover {
+        background-color: #000;
+    }
+      .cardview .card {
+        width: 350px;
+    }   
+    
+    
+    

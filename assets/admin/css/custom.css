@@ -1,0 +1,766 @@
+/* Helper class starts */
+.rtl {
+    direction: rtl !important;
+}
+
+.ltr {
+    direction: ltr !important;
+}
+
+/* Helper class ends */
+
+
+
+/* sider navbar css over write start */
+.sidebar.sidebar-style-2[data-background-color=dark2] .nav .nav-item.selected>a,
+.sidebar.sidebar-style-2[data-background-color=dark] .nav .nav-item.selected>a {
+    color: #fff;
+    font-weight: 700;
+}
+
+.sidebar.sidebar-style-2 .nav .nav-item .selected>a {
+    background: rgba(199, 199, 199, .2);
+}
+
+/* sider navbar css over write end */
+
+
+/* bootstrap modal customize start */
+.modal-content {
+    background: #202940;
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(181, 181, 181, .1) !important;
+}
+
+.modal-content .close {
+    color: #fff;
+}
+
+.modal-content .close:not(:disabled):not(.disabled):focus,
+.modal-content .close:not(:disabled):not(.disabled):hover {
+    color: #fff;
+}
+
+.modal-footer {
+    border-top: 1px solid rgba(181, 181, 181, .1) !important;
+}
+
+/* bootstrap modal customize end */
+
+
+
+/* bootstrap form control customize start */
+.form-control[readonly] {
+    background-color: #1a2035 !important;
+    border-color: #2f374b !important;
+}
+
+.form-control[disabled] {
+    background-color: #1a2035 !important;
+    border-color: #2f374b !important;
+}
+
+/* bootstrap form control customize start */
+
+
+/* bootstrap image thumbnail customize start */
+.img-thumbnail {
+    max-width: 400px;
+}
+
+/* bootstrap image thumbnail customize end */
+
+
+/* image table preview for dropzone edit form start */
+#imgtable .trdb {
+    display: inline-block;
+    position: relative;
+    margin-right: 15px;
+}
+
+#imgtable .trdb button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0px 5px;
+}
+
+#imgtable .trdb td {
+    padding: 0px !important;
+}
+
+.dropzone:hover {
+    background: transparent !important;
+}
+
+/* image table preview for dropzone edit form end */
+
+
+
+/* iconpicker input field start */
+.iconpicker-popover.popover .popover-title input[type=search].iconpicker-search {
+    direction: ltr !important;
+}
+
+/* iconpicker input field end */
+
+
+/* request loader css start */
+.request-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0000007a;
+    z-index: 10000;
+    display: none;
+}
+
+.request-loader img {
+    position: fixed;
+    display: none;
+    width: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.request-loader.show {
+    display: block;
+}
+
+.request-loader.show img {
+    display: block;
+}
+
+/* request loader css end */
+
+
+
+/* summernote css starts */
+.note-editor.note-frame .note-btn.note-image-btn,
+.note-editor.note-frame .note-btn.note-video-btn,
+.note-editor.note-frame .note-btn.note-link-btn {
+    border: 1px solid #31ce36 !important;
+    background: #31ce36 !important;
+}
+
+label.note-form-label {
+    color: #fff !important;
+}
+
+.note-modal label.form-check-label {
+    color: #fff !important;
+}
+
+.note-modal h4.modal-title {
+    color: #ffffff9a;
+}
+
+.sn-checkbox-open-in-new-window.form-check [type=checkbox]:checked,
+.sn-checkbox-open-in-new-window.form-check [type=checkbox]:not(:checked) {
+    left: 30px;
+}
+
+.form-check.sn-checkbox-open-in-new-window {
+    padding-left: 30px;
+}
+
+.sn-checkbox-use-protocol.form-check [type=checkbox]:checked,
+.sn-checkbox-use-protocol.form-check [type=checkbox]:not(:checked) {
+    left: 30px;
+}
+
+.form-check.sn-checkbox-use-protocol {
+    padding-left: 30px;
+}
+
+.form-check.sn-checkbox-use-protocol {
+    display: none;
+}
+
+.sn-checkbox-open-in-new-window.form-check {
+    display: none;
+}
+
+/* summernote css ends */
+
+
+/* summernote rtl css starts */
+.note-editor.note-frame .note-editing-area .note-editable.rtl {
+    text-align: right !important;
+}
+
+/* summernote rtl css ends */
+
+
+.list-group .list-group-item {
+    display: block;
+}
+
+#myEditor li.list-group-item {
+    cursor: move;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+.custom-file-label::after {
+    color: #fff;
+    background-color: #1a2035;
+    border-left: 1px solid #2f374b;
+}
+
+label.custom-file-label {
+    background-color: #1a2035;
+    border: 1px solid #2f374b;
+}
+
+.messages-container {
+    max-height: 600px;
+    overflow-y: scroll;
+}
+
+
+
+
+.dropdown-menu button.deletebtn {
+    border: none;
+    background: transparent;
+    font-size: 13px;
+    padding: .25rem 1.5rem;
+    color: #212529;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.dropdown-menu button.deletebtn:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+
+.version {
+    border: 1px solid #0000003a;
+    margin-bottom: 20px;
+}
+
+.version-header button[aria-expanded=true] {
+    background-color: #6861CE !important;
+    color: #fff;
+}
+
+.version-header button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: left;
+    padding: 20px 30px;
+}
+
+.version-header button:hover {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+.version-header button i {
+    margin-right: 10px;
+}
+
+.version-body .list-group button {
+    color: #fff;
+    padding-left: 60px;
+    font-size: 16px;
+    position: relative;
+}
+
+.version-body .list-group button::before {
+    content: '\f101';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.version-body .list-group button a {
+    border-radius: 50px;
+    float: right;
+    margin-right: 30px;
+}
+
+.version-body .list-group button a.activated {
+    cursor: auto;
+    background-color: #31CE36 !important;
+    border: 1px solid #31CE36 !important;
+}
+
+/* GJS container CSS */
+.my-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 300px;
+}
+
+@media (min-width: 768px) {
+    .my-container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .my-container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .my-container {
+        width: 1170px;
+    }
+}
+
+.product-type .card-stats .icon-big {
+    border-radius: 50%;
+}
+
+.product-type .card.card-stats.card-round {
+    padding: 50px 0;
+}
+
+.product-type a {
+    text-decoration: none;
+}
+
+.product-type .card-category {
+    font-size: 20px;
+}
+
+.product-type .card-stats .card-title {
+    margin-bottom: 0px !important;
+    margin: 15px 0px 10px !important;
+}
+
+/* Jquery Timepicker */
+
+.ui-timepicker-container.ui-timepicker-no-scrollbar.ui-timepicker-standard {
+    position: absolute;
+    /* transform: translateY(-20px); */
+    max-height: 230px;
+    overflow-y: scroll;
+    max-width: 160px;
+    overflow-x: hidden;
+}
+
+.ui-timepicker-container.ui-timepicker-no-scrollbar.ui-timepicker-standard {
+    z-index: 10000 !important;
+    background: #fff;
+}
+ul.ui-timepicker-viewport {
+    list-style: none;
+}
+
+
+/* Select2 CSS */
+.select2-container--default .select2-selection--single {
+    background-color: #1a2035;
+    color: #fff;
+    border-color: #2f374b;
+    height: 45px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #fff;
+    line-height: 42px;
+    padding-left: 20px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #fff transparent transparent transparent;
+    margin-top: 6px;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    cursor: pointer;
+}
+
+.note-editor * {
+    line-height: initial;
+    margin: initial;
+    font-size: initial;
+}
+
+.sidebar.sidebar-style-2 .nav .nav-item span.sidenav-badge {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 5px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+a.d-block {
+    text-decoration: none;
+}
+
+
+
+/* Laravel File Manager CSS */
+.lfm-modal {
+    width: 100%;
+}
+.lfm-modal .modal-dialog {
+    position: absolute !important;
+    top: 50px !important;
+    left: 50px !important;
+    right: 50px !important;
+    bottom: 50px !important;
+    max-width: 100%;
+    margin: 0;
+    min-height: auto;
+}
+.lfm-modal iframe, .lfm-modal .modal-content {
+    height: 100% !important;
+    width: 100% !important;
+}
+.thumb-preview {
+    background: #f1f1f1;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 8px;
+    max-width: 300px;
+}
+
+.thumb-preview img {
+    max-width: 100%;
+}
+#uploadForm > .dz-default.dz-message {
+    padding: 6rem 0 !important;
+}
+.lfm-modal i.fas.fa-times-circle {
+    position: absolute;
+    right: 30px;
+    top: 29px;
+    font-size: 24px;
+    color: #ff3737;
+    background-color: #fff;
+    z-index: 100;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+}
+.slider-thumbs .thumb-preview {
+    max-width: 150px;
+    position: relative;
+}
+.slider-thumbs .thumb-preview i.fa-times-circle {
+    position: absolute;
+    top: -4px;
+    right: -6px;
+    color: #ff3737;
+    background: #fff;
+    border-radius: 50%;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.seperate-file-manager iframe {
+    height: 900px;
+    width: 100%;
+    border: 0;
+}
+@media only screen and (max-width: 1400px) {
+    .seperate-file-manager iframe {
+        height: 590px;
+    }
+}
+.messages-container .item-list img {
+    max-width: 100%;
+}
+/* Laravel File Manager CSS */
+
+/* New css  starts here **/
+/*body[data-background-color="dark"] .card, body[data-background-color="dark"] .row-card-no-pd, body[data-background-color="dark"] .list-group-item, body[data-background-color="dark"] .timeline > li > .timeline-panel {
+  background: #fff;
+}
+
+body[data-background-color="dark"] .main-panel {
+  color: #181c32 !important;
+}
+
+body[data-background-color="dark"] {
+  background: #f5f8fa;
+}
+
+body[data-background-color="dark"] .footer {
+  border-top: none;
+  background: #fff;
+}
+
+.navbar-header[data-background-color="dark"] {
+  background: #fff !important;
+}
+
+body[data-background-color="dark"] .page-title, body[data-background-color="dark"] .breadcrumbs li a {
+  color: #181c32;
+}
+body[data-background-color="dark"] .form-control, body[data-background-color="dark"] .form-group-default, body[data-background-color="dark"] .select2-container--bootstrap .select2-selection {
+  background-color: #f5f8fa;
+  color: #5e6278;
+  border-color: #f5f8fa;
+}
+.selectgroup-input:checked + .selectgroup-button {
+  border-color: #009ef7;
+  z-index: 1;
+  color: #fff;
+  background: #009ef7;
+}
+body[data-background-color="dark"] .selectgroup-button {
+  border: 1px solid #b5b5c3;
+}
+.sidebar[data-background-color="dark2"] {
+  background: #1e1e2d !important;
+}
+.sidebar[data-background-color="dark2"].sidebar-style-2 .nav .nav-item.active > a, .sidebar[data-background-color="dark2"].sidebar-style-2 .nav .nav-item.active > a:hover, .sidebar[data-background-color="dark2"].sidebar-style-2 .nav .nav-item.active > a:focus, .sidebar[data-background-color="dark2"].sidebar-style-2 .nav .nav-item.active > a[data-toggle="collapse"][aria-expanded="true"] {
+  background: #f5f8fa !important;
+  color: #1f283e !important;
+}
+.modal-content {
+  background: #fff;
+}
+.btn-success {
+  background: #1890ff !important;
+  border-color: #1890ff !important;
+}
+.text-white,
+body[data-background-color="dark"] .card-title, body[data-background-color="dark"] .card-title a, body[data-background-color="dark"] .card-title a:hover, body[data-background-color="dark"] .card-title a:focus {
+  color: rgb(138, 38, 80) !important;
+}
+.modal-content .close,
+.modal-content .close:hover {
+  color: rgba(0,0,0,.45) !important;
+}
+.bg-primary {
+  background-color: transparent !important;
+}
+body[data-background-color="dark"] .main-panel label {
+  color: #181c32 !important;
+}
+.form-control[readonly] {
+    color: #ffffff !important;
+}
+.logo-header[data-background-color="dark2"] {
+  background: #fff !important;
+}
+.select2-container--default .select2-selection--single {
+  background-color: #fff;
+  color: rgba(0,0,0,.85);
+  border-color: #d9d9d9;
+  height: 45px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #5e6278;
+}*/
+/* New css  ends here **/
+
+/*ul.ui-timepicker-viewport {
+  background: #1a2035 !important;
+  color: #fff;
+  padding-left: 25px;
+}
+
+#start_time option {
+    background-color: #1a2035;
+    color: #ffffff;
+    padding-left: 25px;
+}*/
+.loaddata  {
+    color: #ffffff !important;
+}
+.tabc, .ui-widget-header,
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+      background: #1a2035!important;
+  color: #fff!important;
+  margin: 0;
+}
+.ui-state-default a:link {
+      color: #fff!important;
+}
+.nodisplay {
+        display:none;
+    }
+    .cal-trainer {
+  color: #dbd2c9 !important;
+  width: 100%;
+  display: block;
+  line-height: 1.54em;
+  letter-spacing: .2em;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.tabc  a {
+   color: #fff !important;
+}
+
+#tabs .table-bordered thead th{
+	text-align: center;
+	font-size: 15px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/*calender */
+
+.class_calender {
+    background: rgb(34, 34, 34) !important;
+	padding: 30px 0px 70px 0px;
+	    position: relative;
+}
+.class_calender .subtext p {
+    text-align: center;
+    font-family: Tajawal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #d7d7d7;
+    /*margin-bottom:60px;*/
+}
+.class_calender .content {
+    background: rgb(34, 34, 34) !important;
+}
+
+.class_calender .content .row {
+    background: rgb(34, 34, 34) !important;
+}
+.class_calender .content .row .col-lg-12 {
+    background: rgb(34, 34, 34) !important;
+}
+.class_calender .section_title h2 {
+    font-family: Tajawal !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 50px;
+    color: #ffffff!important;
+    text-transform: uppercase;
+    text-align: center;
+}
+.class_calender .content .row .col-lg-12 .card {
+    background: rgb(34, 34, 34) !important;
+    border: none !important;
+}
+
+.class_calender .content .row .col-lg-12 .card .card-body {
+    background: rgb(34, 34, 34) !important;
+	text-align: center;
+	padding-top: 0px;
+}
+.class_calender .content .row .col-lg-12 .card .card-body #tab {
+    background: rgb(34, 34, 34) !important;
+    color: white !important;
+}
+.class_calender .ui-tabs .ui-corner-all .ui-widget .ui-widget-content ul li {
+    background: rgb(34, 34, 34) !important;
+    color: white !important;
+    border: rgb(34, 34, 34);
+}
+
+.class_calender .ui-state-default {
+    border: none;
+    background: rgb(0 0 0 / 0%) !important;
+    padding-top: 5px !important;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Tajawal';
+}
+.class_calender #tabs {
+    border: 1px solid rgb(34 34 34 / 0%) !important;
+    background: rgb(0 0 0 / 0%) !important;
+    color: white;
+}
+.class_calender #tabs ul {
+    padding: 5px;
+    border-width: 0px;
+    /*border-bottom: 2px solid white !important;*/
+    background: rgb(0 0 0 / 0%) !important;
+    color: white;
+}
+.class_calender #tabs ul .ui-state-active {
+    padding: 5px;
+    border-width: 0px 0 1px 0;
+    /*border-bottom: 2px solid rgb(34, 34, 34) !important;*/
+    text-decoration: underline !important;
+	transition: 0.2s ease-in-out;
+}
+.ui-state-default a:link {
+    color: white !important;
+    padding-bottom: 5px;
+}
+.ui-state-active a,
+.ui-state-active a:link {
+    /*color: rgb(189, 146, 47) !important;*/
+	color: #ffffff;
+}
+/*
+.ui-state-active a,
+.ui-state-active {
+  text-decoration: underline !important;
+}
+*/
+.ui-tabs-anchor {
+    color: white !important;
+}
+.class_calender #tabs table {
+    color: white !important;
+    border: white !important;
+	font-family: 'Tajawal';
+    font-size: medium;
+}
+.class_calender #tabs table thead {
+    color: white !important;
+    border: white !important;
+    background: #000000 !important;
+    border: 1px solid #808080;
+    background-color: #000000;
+}
+.table .tr .td {
+    color: white !important;
+    border: 1px solid #808080;
+}
+.ui-tabs-panel .ui-corner-bottom .ui-widget-content .a {
+    color: white !important;
+    border: 1px solid #808080;
+    text-decoration: none;
+}
+.ui-widget-content a {
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+.ui-tabs-panel .ui-corner-bottom .ui-widget-content {
+    overflow-x: auto !important;
+}
+.ui-tabs .ui-tabs-panel, .ui-tabs {
+    padding: 0 !important;
+}
+.tabc td {
+    padding: 10px !important;
+}
